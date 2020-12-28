@@ -6,6 +6,7 @@ dotenv.config({ path: '.env' });
 
 
 export default {
+	pathPrefix: "/pizza",
 	siteMetadata: {
 		title: `Slick Slices`,
 		siteUrl: `https://gatsby.pizza`,
